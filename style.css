@@ -11,8 +11,9 @@ body {
     height: 100vh;
     min-height: 300px;
 }
-.carousel-caption{
-    bottom: 220px;
+.carousel-caption {
+    position: relative;
+    top: 220px;    
     z-index: 2;
 }
 .carousel-caption h5 {
@@ -63,10 +64,10 @@ body {
 
 @media only screen and (min-width: 768px) and (max-width:991px) {
     .carousel-caption{
-        /* display: flex;
-        flex-direction: column;
-        justify-content:center; */
-    
+        top: 200px;     
+    }
+    .carousel-caption p{
+        width: 100%;
     }
 }
 
@@ -89,3 +90,9 @@ body {
         font-size: 12px;
     }
 }
+
+/* .about-img {
+    
+    margin-top: 50px;
+    width: 400px;
+} */
