@@ -93,7 +93,17 @@ body {
     width: 99%;
     
 }
-
+.form-function:focus {
+    background-image: linear-gradient(rgb(243, 233, 233), rgb(247, 218, 218));
+}
+.team .team-unit {
+    
+    margin-bottom: 10px;
+}
+.team-unit img {
+    height: 250px;
+    width: 300px;
+}
 /* === responsive css === */
 
 @media only screen and (min-width: 768px) and (max-width:991px) {
